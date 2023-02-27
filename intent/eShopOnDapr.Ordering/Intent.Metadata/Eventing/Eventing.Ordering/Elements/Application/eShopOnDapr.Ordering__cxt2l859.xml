@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="2d6f9bac-0734-427b-a5fa-d2928f743de4" type="Application" typeId="f40a4942-5d2d-4174-8ec1-af66cbd464db">
+  <name>eShopOnDapr.Ordering</name>
+  <display>eShopOnDapr.Ordering</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>710da588-a020-45d5-aee4-4348f22fb928</parentFolderId>
+  <packageId>710da588-a020-45d5-aee4-4348f22fb928</packageId>
+  <packageName>Eventing.Ordering</packageName>
+  <diagram>
+    <targetPackageId>710da588-a020-45d5-aee4-4348f22fb928</targetPackageId>
+  </diagram>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

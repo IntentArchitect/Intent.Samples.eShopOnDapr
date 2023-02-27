@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="4908eaed-238e-45ad-96d4-77ca3154ad9b" type="Message" typeId="cbe970af-5bad-4d92-a3ed-a24b9fdaa23e">
+  <name>OrderStatusChangedToSubmittedIntegrationEvent</name>
+  <display>OrderStatusChangedToSubmittedIntegrationEvent</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>d57888af-35b9-4ecb-9e93-f0240458fd42</parentFolderId>
+  <packageId>d57888af-35b9-4ecb-9e93-f0240458fd42</packageId>
+  <packageName>Eventing.Messages</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="ec96e452-9084-49bb-a883-aa42eb327fe7" name="Dapr Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.Dapr.AspNetCore.Pubsub</definitionPackageName>
+      <definitionPackageId>ed7d7f87-babb-4f57-83bf-d35b9f826bf6</definitionPackageId>
+      <properties>
+        <property name="059416d7-133b-4053-ab32-35412a06f670" display="Pubsub Name" isActive="true" />
+        <property name="a15b6899-7366-4fd7-b018-47a482e05432" display="Topic Name" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="0de3ee7d-f599-4eeb-ae03-374b1bd97e61" type="Property" typeId="bde29850-5fb9-4f47-9941-b9e182fd9bdc">
+      <name>orderId</name>
+      <display>orderId: guid?</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="be149ec9-4ad5-4a4b-bbc7-d5db70978549">
+        <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>true</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>4908eaed-238e-45ad-96d4-77ca3154ad9b</parentFolderId>
+      <packageId>d57888af-35b9-4ecb-9e93-f0240458fd42</packageId>
+      <packageName>Eventing.Messages</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="77d043ad-ff54-48ee-8e6b-d8108c2c2376" type="Property" typeId="bde29850-5fb9-4f47-9941-b9e182fd9bdc">
+      <name>orderStatus</name>
+      <display>orderStatus: string?</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="7cdefb7a-7973-4a68-b0a0-d53b7483eaba">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>true</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>4908eaed-238e-45ad-96d4-77ca3154ad9b</parentFolderId>
+      <packageId>d57888af-35b9-4ecb-9e93-f0240458fd42</packageId>
+      <packageName>Eventing.Messages</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="6af3b7b6-d235-4324-ada6-ba0e0dc75124" type="Property" typeId="bde29850-5fb9-4f47-9941-b9e182fd9bdc">
+      <name>buyerId</name>
+      <display>buyerId: string?</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="55fe3835-4676-439c-b325-6482b0564d5d">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>true</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>4908eaed-238e-45ad-96d4-77ca3154ad9b</parentFolderId>
+      <packageId>d57888af-35b9-4ecb-9e93-f0240458fd42</packageId>
+      <packageName>Eventing.Messages</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

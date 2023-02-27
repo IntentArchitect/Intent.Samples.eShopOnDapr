@@ -6,5 +6,11 @@
   <iconType>UrlImagePath</iconType>
   <metadataRelativePath>Intent.Metadata</metadataRelativePath>
   <modulesCacheRelativePath>.intent/modules</modulesCacheRelativePath>
-  <applications />
+  <lastUsedApplicationTemplate id="Intent.ApplicationTemplate.AspNetCore6.0.CleanArchitecture" version="4.0.5" />
+  <applications>
+    <application id="3d4af4d8-a5ce-44e5-b461-87b9bb07d1cd" name="eShopOnDapr.Basket" relativePath="eShopOnDapr.Basket/eShopOnDapr.Basket.application.config" />
+    <application id="b9708707-1054-46b5-a760-eff270154043" name="eShopOnDapr.Catalog" relativePath="eShopOnDapr.Catalog/eShopOnDapr.Catalog.application.config" />
+    <application id="4c8c9ea9-82b1-49b8-8f87-bce16b753faa" name="eShopOnDapr.Ordering" relativePath="eShopOnDapr.Ordering/eShopOnDapr.Ordering.application.config" />
+    <application id="f6de452a-3d4e-4097-b179-d1dbbab64a6e" name="eShopOnDapr.Web.HttpAggregator" relativePath="eShopOnDapr.Web.HttpAggregator/eShopOnDapr.Web.HttpAggregator.application.config" />
+  </applications>
 </solution>

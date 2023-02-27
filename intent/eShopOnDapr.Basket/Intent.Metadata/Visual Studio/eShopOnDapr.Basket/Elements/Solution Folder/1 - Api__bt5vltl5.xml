@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="07c5729c-342e-4ea7-a22a-716ae2af822c" type="Solution Folder" typeId="0dc2b846-c968-49eb-99b7-8776919313a8">
+  <name>1 - Api</name>
+  <display>1 - Api</display>
+  <externalReference>2b76d8c9-dd09-40ff-9955-8ab74ee9512a</externalReference>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>4f173b98-c44d-4465-a340-7b78e2e3e779</parentFolderId>
+  <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+  <packageName>eShopOnDapr.Basket</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

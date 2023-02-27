@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="a5d2849c-0f54-4bd0-9874-20f030b05fb9">
+  <sourceEnd id="9d4a98af-8190-4308-8e0f-d2617b3432ad" type="Message Subscribe Assocation Source End" typeId="18780798-1ea8-462b-b4f9-b8605ad11636">
+    <name>eShopOnDapr.Basket</name>
+    <display>subscriber: eShopOnDapr.Basket</display>
+    <order>0</order>
+    <typeReference id="bf747abb-b4a5-4b3a-b7a2-d79926537f79">
+      <typeId>e56feb8d-e8d5-4ccc-ae0d-1bf91fcf6b77</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Eventing.Basket</typePackageName>
+      <typePackageId>cadd1e5b-883d-4c46-b7f9-3f518f2bfb68</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="a5d2849c-0f54-4bd0-9874-20f030b05fb9" type="Message Subscribe Assocation Target End" typeId="21c3df1c-5140-4f65-9814-a68e1a577768">
+    <name>OrderStatusChangedToSubmittedIntegrationEvent</name>
+    <display>subscribe: OrderStatusChangedToSubmittedIntegrationEvent</display>
+    <order>1</order>
+    <typeReference id="470f1eac-52db-4eaa-b4f0-b314ec99e83b">
+      <typeId>4908eaed-238e-45ad-96d4-77ca3154ad9b</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Eventing.Messages</typePackageName>
+      <typePackageId>d57888af-35b9-4ecb-9e93-f0240458fd42</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Message Subscribe Assocation</associationType>
+  <associationTypeId>50e0bed1-1387-4d67-8f66-1194763296b1</associationTypeId>
+  <stereotypes />
+</association>

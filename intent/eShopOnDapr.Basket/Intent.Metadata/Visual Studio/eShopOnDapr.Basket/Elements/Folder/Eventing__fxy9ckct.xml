@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="61e68006-036a-4f8e-9bb7-4ca6c2661ce1" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+  <name>Eventing</name>
+  <display>Eventing</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>a8db42ad-9f1e-465a-8891-00c54b280214</parentFolderId>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="4a36aff1-fc40-46df-8286-2478831577f7" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Dapr.AspNetCore.PubSub.EventBusImplementation</name>
+      <display>Intent.Dapr.AspNetCore.PubSub.EventBusImplementation</display>
+      <externalReference>Intent.Dapr.AspNetCore.PubSub</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>61e68006-036a-4f8e-9bb7-4ca6c2661ce1</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="ec2d81b8-e3a5-4965-9963-b5eeafe7ac11" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Dapr.AspNetCore.PubSub.EventBusInterface</name>
+      <display>Intent.Dapr.AspNetCore.PubSub.EventBusInterface</display>
+      <externalReference>Intent.Dapr.AspNetCore.PubSub</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>61e68006-036a-4f8e-9bb7-4ca6c2661ce1</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="85aa61e0-bc84-406d-a674-2da6bc7d7255" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Dapr.AspNetCore.PubSub.EventInterface</name>
+      <display>Intent.Dapr.AspNetCore.PubSub.EventInterface</display>
+      <externalReference>Intent.Dapr.AspNetCore.PubSub</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>61e68006-036a-4f8e-9bb7-4ca6c2661ce1</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="7b080015-efa5-4dce-a9ae-443773346c4d" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Dapr.AspNetCore.Pubsub.EventBusImplementation</name>
+      <display>Intent.Dapr.AspNetCore.Pubsub.EventBusImplementation</display>
+      <externalReference>Intent.Dapr.AspNetCore.Pubsub</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>61e68006-036a-4f8e-9bb7-4ca6c2661ce1</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="bf65cf06-6f18-4df8-baea-1d7b1570c6fc" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Dapr.AspNetCore.Pubsub.EventBusInterface</name>
+      <display>Intent.Dapr.AspNetCore.Pubsub.EventBusInterface</display>
+      <externalReference>Intent.Dapr.AspNetCore.Pubsub</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>61e68006-036a-4f8e-9bb7-4ca6c2661ce1</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="6472c89c-d425-4dd7-9155-7a08111c556d" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Dapr.AspNetCore.Pubsub.EventInterface</name>
+      <display>Intent.Dapr.AspNetCore.Pubsub.EventInterface</display>
+      <externalReference>Intent.Dapr.AspNetCore.Pubsub</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>61e68006-036a-4f8e-9bb7-4ca6c2661ce1</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="507942cc-28db-4537-b073-01d3fd050b34">
+  <sourceEnd id="6450941d-78af-4e9c-82db-4cc22704d20a" type="Message Subscribe Assocation Source End" typeId="18780798-1ea8-462b-b4f9-b8605ad11636">
+    <name>eShopOnDapr.Ordering</name>
+    <display>subscriber: eShopOnDapr.Ordering</display>
+    <order>0</order>
+    <typeReference id="d0607a6c-e015-4114-bf19-1d0fe4d98bbd">
+      <typeId>2d6f9bac-0734-427b-a5fa-d2928f743de4</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Eventing.Ordering</typePackageName>
+      <typePackageId>710da588-a020-45d5-aee4-4348f22fb928</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="507942cc-28db-4537-b073-01d3fd050b34" type="Message Subscribe Assocation Target End" typeId="21c3df1c-5140-4f65-9814-a68e1a577768">
+    <name>UserCheckoutAcceptedIntegrationEvent</name>
+    <display>subscribe: UserCheckoutAcceptedIntegrationEvent</display>
+    <order>1</order>
+    <typeReference id="122d8654-f16a-440c-acb3-8adcaafc581c">
+      <typeId>e10e4119-6730-45ba-bedb-bc03f58e6754</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Eventing.Messages</typePackageName>
+      <typePackageId>d57888af-35b9-4ecb-9e93-f0240458fd42</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Message Subscribe Assocation</associationType>
+  <associationTypeId>50e0bed1-1387-4d67-8f66-1194763296b1</associationTypeId>
+  <stereotypes />
+</association>

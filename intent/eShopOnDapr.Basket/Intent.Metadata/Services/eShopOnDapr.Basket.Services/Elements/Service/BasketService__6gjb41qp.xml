@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="595b985d-48e4-42b5-a317-f1fbaf36d13a" type="Service" typeId="b16578a5-27b1-4047-a8df-f0b783d706bd">
+  <name>BasketService</name>
+  <display>BasketService</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</parentFolderId>
+  <packageId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</packageId>
+  <packageName>eShopOnDapr.Basket.Services</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="c29224ec-d473-4b95-ad4a-ec55c676c4fd" name="Http Service Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+      <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+      <properties>
+        <property name="1e223bd0-7a72-435a-8741-a612d88e4a12" display="Route" value="api/v1/[controller]" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="d4986a41-806d-4928-b67b-c305b479d44b" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>GetBasket</name>
+      <display>GetBasket(): CustomerBasket</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="54a0ff38-2384-4f72-b18c-7e2bc8e7d528">
+        <typeId>634dd4c8-e3c6-44e4-9a44-ff1bc858d649</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>eShopOnDapr.Basket.Services</typePackageName>
+        <typePackageId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <applicationId>3d4af4d8-a5ce-44e5-b461-87b9bb07d1cd</applicationId>
+        <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+        <mappingSettingsId>f15fa935-434e-4983-b283-25cde2cb440e</mappingSettingsId>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
+        <mappedPath>
+          <target id="a6e8e020-e03e-4cc1-8bdf-66bd16176ed3" name="GetBasketQuery" type="element" specialization="Query" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>595b985d-48e4-42b5-a317-f1fbaf36d13a</parentFolderId>
+      <packageId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</packageId>
+      <packageName>eShopOnDapr.Basket.Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+          <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+          <properties>
+            <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="GET" isActive="true" />
+            <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="" isActive="true" />
+            <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="ea091d7e-58ea-42dd-94df-7150a75528e5" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>UpdateBasket</name>
+      <display>UpdateBasket(value: CustomerBasket): CustomerBasket</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="c7b09ce8-22f3-47c1-812b-170acfa71c4d">
+        <typeId>634dd4c8-e3c6-44e4-9a44-ff1bc858d649</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>eShopOnDapr.Basket.Services</typePackageName>
+        <typePackageId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <applicationId>3d4af4d8-a5ce-44e5-b461-87b9bb07d1cd</applicationId>
+        <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+        <mappingSettingsId>e4e36072-a2ce-42d3-93c5-0b496d79ef43</mappingSettingsId>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
+        <mappedPath>
+          <target id="5e0de118-6413-48cb-8786-7d7719705ea2" name="UpdateBasketCommand" type="element" specialization="Command" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>595b985d-48e4-42b5-a317-f1fbaf36d13a</parentFolderId>
+      <packageId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</packageId>
+      <packageName>eShopOnDapr.Basket.Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+          <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+          <properties>
+            <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="POST" isActive="true" />
+            <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="" isActive="true" />
+            <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements>
+        <childElement id="87f63e47-9e4f-4814-8203-1230a4622944" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>value</name>
+          <display>in : value: CustomerBasket</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="f21d0d65-11b4-48ea-88d7-e99ddf77ea44">
+            <typeId>634dd4c8-e3c6-44e4-9a44-ff1bc858d649</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>eShopOnDapr.Basket.Services</typePackageName>
+            <typePackageId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappingSettingsId>e4e36072-a2ce-42d3-93c5-0b496d79ef43</mappingSettingsId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
+            <mappedPath>
+              <target id="84bf3c38-7633-4958-a4bd-6dbdf053ec80" name="value" type="element" specialization="DTO-Field" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>ea091d7e-58ea-42dd-94df-7150a75528e5</parentFolderId>
+          <packageId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</packageId>
+          <packageName>eShopOnDapr.Basket.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="35cdded3-30d9-4039-bd6d-c47d686ae213" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>Checkout</name>
+      <display>Checkout(basketCheckout: BasketCheckout, requestId: string): void</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="f7e9833e-3f43-417b-8a4e-d314d386ad1b">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <applicationId>3d4af4d8-a5ce-44e5-b461-87b9bb07d1cd</applicationId>
+        <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+        <mappingSettingsId>e4e36072-a2ce-42d3-93c5-0b496d79ef43</mappingSettingsId>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
+        <mappedPath>
+          <target id="bff2fa31-f3cf-4f0f-a1e3-f981f20b1f58" name="CheckoutCommand" type="element" specialization="Command" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>595b985d-48e4-42b5-a317-f1fbaf36d13a</parentFolderId>
+      <packageId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</packageId>
+      <packageName>eShopOnDapr.Basket.Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+          <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+          <properties>
+            <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="POST" isActive="true" />
+            <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="checkout" isActive="true" />
+            <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements>
+        <childElement id="5eba69a6-a17a-40ef-a031-46093178a694" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>basketCheckout</name>
+          <display>in : basketCheckout: BasketCheckout</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="d429eb93-03bd-46f8-a123-fb955013a6cc">
+            <typeId>aac01601-7f93-4777-b905-a3e3ce530016</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>eShopOnDapr.Basket.Services</typePackageName>
+            <typePackageId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappingSettingsId>e4e36072-a2ce-42d3-93c5-0b496d79ef43</mappingSettingsId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
+            <mappedPath>
+              <target id="9dd7f193-207b-4378-9265-9f056d8ec9bc" name="basketCheckout" type="element" specialization="DTO-Field" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>35cdded3-30d9-4039-bd6d-c47d686ae213</parentFolderId>
+          <packageId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</packageId>
+          <packageName>eShopOnDapr.Basket.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="4e5e7233-7d9e-4302-a34f-8f8355b2b28b" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>requestId</name>
+          <display>in : requestId: string</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="08d2dd04-c017-4c23-9d2a-b23792885959">
+            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappingSettingsId>e4e36072-a2ce-42d3-93c5-0b496d79ef43</mappingSettingsId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
+            <mappedPath>
+              <target id="003a8573-400d-42b3-9ce7-bfd31868250f" name="requestId" type="element" specialization="DTO-Field" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>35cdded3-30d9-4039-bd6d-c47d686ae213</parentFolderId>
+          <packageId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</packageId>
+          <packageName>eShopOnDapr.Basket.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="From Header" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" value="X-Request-Id" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="6f70fa77-974c-48a1-8e9d-e61eb5b786a0" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>DeleteBasket</name>
+      <display>DeleteBasket(): void</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="bd949613-2101-42fb-b18b-f54038c66441">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <applicationId>3d4af4d8-a5ce-44e5-b461-87b9bb07d1cd</applicationId>
+        <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+        <mappingSettingsId>e4e36072-a2ce-42d3-93c5-0b496d79ef43</mappingSettingsId>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
+        <mappedPath>
+          <target id="3c92fc7e-a9a9-456d-99b0-099633de3a75" name="DeleteBasketCommand" type="element" specialization="Command" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>595b985d-48e4-42b5-a317-f1fbaf36d13a</parentFolderId>
+      <packageId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</packageId>
+      <packageName>eShopOnDapr.Basket.Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+          <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+          <properties>
+            <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="DELETE" isActive="true" />
+            <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="" isActive="true" />
+            <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

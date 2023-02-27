@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="a8c9d7d4-fce5-4d03-a488-26216f1df677" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+  <name>Eventing</name>
+  <display>Eventing</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>7656e9cc-f11f-41a5-9ad1-13173a0caa3d</parentFolderId>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

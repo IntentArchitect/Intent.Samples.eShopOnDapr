@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Api", "1 - Api", "{871F70CB-7633-42B0-BB75-F538B99A6AD4}"
+EndProject
+Project("{FFD54A85-9362-48AC-B646-C93AB9AC63D2}") = "eShopOnDapr.Web.HttpAggregator.Api", "eShopOnDapr.Web.HttpAggregator.Api\eShopOnDapr.Web.HttpAggregator.Api.csproj", "{9CA8B847-A557-4209-975B-6C8D103F2726}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{DB17E16A-3317-4998-9C0D-ADFCD1036F2F}"
+EndProject
+Project("{52B49DB5-3EA9-4095-B1A7-DF1AC22D7DAE}") = "eShopOnDapr.Web.HttpAggregator.Application", "eShopOnDapr.Web.HttpAggregator.Application\eShopOnDapr.Web.HttpAggregator.Application.csproj", "{67C81A2C-6BB8-4D18-9885-A4597FB9F258}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{60870E44-E641-4747-A93C-3437FDF44A80}"
+EndProject
+Project("{52B49DB5-3EA9-4095-B1A7-DF1AC22D7DAE}") = "eShopOnDapr.Web.HttpAggregator.Domain", "eShopOnDapr.Web.HttpAggregator.Domain\eShopOnDapr.Web.HttpAggregator.Domain.csproj", "{012BE95E-EAA6-4B96-A549-E01F48F436D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{69728F40-6269-47CC-8F1D-7DBD36AA5420}"
+EndProject
+Project("{52B49DB5-3EA9-4095-B1A7-DF1AC22D7DAE}") = "eShopOnDapr.Web.HttpAggregator.Infrastructure", "eShopOnDapr.Web.HttpAggregator.Infrastructure\eShopOnDapr.Web.HttpAggregator.Infrastructure.csproj", "{BBFE42F1-D62E-4AA5-BB3F-8EC55AEEC8FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CA8B847-A557-4209-975B-6C8D103F2726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA8B847-A557-4209-975B-6C8D103F2726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA8B847-A557-4209-975B-6C8D103F2726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA8B847-A557-4209-975B-6C8D103F2726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C81A2C-6BB8-4D18-9885-A4597FB9F258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C81A2C-6BB8-4D18-9885-A4597FB9F258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C81A2C-6BB8-4D18-9885-A4597FB9F258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C81A2C-6BB8-4D18-9885-A4597FB9F258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{012BE95E-EAA6-4B96-A549-E01F48F436D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012BE95E-EAA6-4B96-A549-E01F48F436D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012BE95E-EAA6-4B96-A549-E01F48F436D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012BE95E-EAA6-4B96-A549-E01F48F436D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBFE42F1-D62E-4AA5-BB3F-8EC55AEEC8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBFE42F1-D62E-4AA5-BB3F-8EC55AEEC8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBFE42F1-D62E-4AA5-BB3F-8EC55AEEC8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBFE42F1-D62E-4AA5-BB3F-8EC55AEEC8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9CA8B847-A557-4209-975B-6C8D103F2726} = {871F70CB-7633-42B0-BB75-F538B99A6AD4}
+		{67C81A2C-6BB8-4D18-9885-A4597FB9F258} = {DB17E16A-3317-4998-9C0D-ADFCD1036F2F}
+		{012BE95E-EAA6-4B96-A549-E01F48F436D9} = {60870E44-E641-4747-A93C-3437FDF44A80}
+		{BBFE42F1-D62E-4AA5-BB3F-8EC55AEEC8FD} = {69728F40-6269-47CC-8F1D-7DBD36AA5420}
+	EndGlobalSection
+EndGlobal

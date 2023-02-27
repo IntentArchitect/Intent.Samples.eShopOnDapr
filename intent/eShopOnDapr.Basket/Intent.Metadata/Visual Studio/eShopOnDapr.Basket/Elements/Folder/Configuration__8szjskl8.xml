@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="77386a7f-7378-4e21-814b-91145bd2cb46" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+  <name>Configuration</name>
+  <display>Configuration</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>1b8d6dcf-0dbf-4047-a8d6-271e76067a56</parentFolderId>
+  <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+  <packageName>eShopOnDapr.Basket</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+      <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+      <properties>
+        <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="cf31fa54-d58c-493d-9661-7378fd7d1093" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.AspNetCore.Swashbuckle.SwashbuckleConfiguration</name>
+      <display>Intent.AspNetCore.Swashbuckle.SwashbuckleConfiguration</display>
+      <externalReference>Intent.AspNetCore.Swashbuckle</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>77386a7f-7378-4e21-814b-91145bd2cb46</parentFolderId>
+      <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+      <packageName>eShopOnDapr.Basket</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="625c8e2d-61f9-4943-93cb-38c355ffe105" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Security.JWT.ConfigurationJWTAuthentication</name>
+      <display>Intent.Security.JWT.ConfigurationJWTAuthentication</display>
+      <externalReference>Intent.Security.JWT</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>77386a7f-7378-4e21-814b-91145bd2cb46</parentFolderId>
+      <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+      <packageName>eShopOnDapr.Basket</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="186e704d-4f2a-4c4d-bc59-6b0e599b3b83" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Dapr.AspNetCore.DaprConfiguration</name>
+      <display>Intent.Dapr.AspNetCore.DaprConfiguration</display>
+      <externalReference>Intent.Dapr.AspNetCore</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>77386a7f-7378-4e21-814b-91145bd2cb46</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

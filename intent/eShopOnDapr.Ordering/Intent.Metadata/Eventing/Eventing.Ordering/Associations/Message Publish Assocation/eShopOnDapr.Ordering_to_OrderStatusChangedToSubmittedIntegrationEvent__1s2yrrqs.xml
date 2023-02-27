@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="c233b719-0093-48bc-8233-42d667326b82">
+  <sourceEnd id="ccc6e85d-3055-4063-a97d-f065c411f02f" type="Message Publish Assocation Source End" typeId="282eea12-2b98-4f0f-a28c-50c05b953c8e">
+    <name>eShopOnDapr.Ordering</name>
+    <display>publisher: eShopOnDapr.Ordering</display>
+    <order>0</order>
+    <typeReference id="ae54d57e-0661-41f3-a3ae-7e7f1b18091d">
+      <typeId>2d6f9bac-0734-427b-a5fa-d2928f743de4</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Eventing.Ordering</typePackageName>
+      <typePackageId>710da588-a020-45d5-aee4-4348f22fb928</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="c233b719-0093-48bc-8233-42d667326b82" type="Message Publish Assocation Target End" typeId="6be8d569-70b9-4451-bd1b-7b654499503e">
+    <name>OrderStatusChangedToSubmittedIntegrationEvent</name>
+    <display>publish: OrderStatusChangedToSubmittedIntegrationEvent</display>
+    <order>0</order>
+    <typeReference id="db437817-6150-4561-a3c6-1eca780f5782">
+      <typeId>4908eaed-238e-45ad-96d4-77ca3154ad9b</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Eventing.Messages</typePackageName>
+      <typePackageId>d57888af-35b9-4ecb-9e93-f0240458fd42</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Message Publish Assocation</associationType>
+  <associationTypeId>022d4c90-e1b6-4747-a15f-640c19503a8f</associationTypeId>
+  <stereotypes />
+</association>

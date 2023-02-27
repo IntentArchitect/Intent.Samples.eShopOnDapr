@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="fc87378e-5749-4e65-8509-78168dfa76b7" type="Class Library (.NET Core)" typeId="52B49DB5-3EA9-4095-B1A7-DF1AC22D7DAE">
+  <name>eShopOnDapr.Basket.Application</name>
+  <display>eShopOnDapr.Basket.Application</display>
+  <externalReference>e5210c02-22fc-4c16-b9e4-9c014cf765ba</externalReference>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>6441d212-289d-478c-b742-52e00228ed1a</parentFolderId>
+  <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+  <packageName>eShopOnDapr.Basket</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="5d85edfb-490c-42c2-81ef-c57c0300eb5a" name=".NET Core Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+      <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+      <properties>
+        <property name="4756bd10-23e2-473b-9957-d7083759cd42" display="Target Multiple Frameworks" value="false" isActive="true" />
+        <property name="ef3e7b17-ba1d-4818-82a2-5a8ad3875d40" display="Target Framework" value="0cd4e056-3bc1-4f8c-9cba-7d362d42c33c" isActive="true" />
+        <property name="5215b600-32fc-4a6d-af72-9eb88a6f30e7" display="Target Frameworks" value="" isActive="false" />
+        <property name="7bfda3d8-b249-488e-b7d4-315d5f2b25f4" display="Runtime Identifiers" isActive="true" />
+        <property name="bb694bf2-6758-492d-ae65-5a8626704786" display="Configurations" isActive="true" />
+        <property name="3710062e-9beb-40e2-8f33-111efecf43a5" display="Root Namespace" isActive="true" />
+        <property name="f2956d24-b6da-427b-8728-c4f44714ce69" display="User Secrets Id" isActive="true" />
+        <property name="42cdb74e-d5fd-4969-94ca-585d0527b862" display="Generate Runtime Configuration Files" isActive="true" />
+        <property name="6111c054-9a40-4f92-9f7c-3a8372af14b8" display="Generate Documentation File" isActive="true" />
+        <property name="f236ad27-a4ab-490a-92d4-b6faf2d1e033" display="Assembly Name" isActive="true" />
+        <property name="96c39bf5-320f-4d4c-9545-76c52cb29e91" display="Implicit Usings" isActive="true" />
+      </properties>
+    </stereotype>
+    <stereotype stereotypeDefinitionId="d9b43864-0370-401b-9e71-b1d286919500" name="C# Project Options">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+      <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+      <properties>
+        <property name="cb56677d-e132-4397-b2ec-3f47e950a111" display="Language Version" value="default" isActive="true" />
+        <property name="5c953a82-78c4-4986-b204-df9fcbea5242" display="Relative Location" isActive="true" />
+        <property name="415a5406-0517-4c0e-ab60-bc809a23c308" display="Nullable Enabled" value="false" isActive="false" />
+        <property name="68a31b13-148b-45da-a6ea-5a6883f86438" display="Nullable" value="enable" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="e578c41c-65a0-4e71-bb94-70307edfb5a7" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.Contracts.Clients.DtoContract</name>
+      <display>Intent.Application.Contracts.Clients.DtoContract</display>
+      <externalReference>Intent.Application.Contracts.Clients</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+      <packageName>eShopOnDapr.Basket</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="c78158c8-5183-4cdb-a31a-42e8e094636a" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.Contracts.Clients.ServiceContract</name>
+      <display>Intent.Application.Contracts.Clients.ServiceContract</display>
+      <externalReference>Intent.Application.Contracts.Clients</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+      <packageName>eShopOnDapr.Basket</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="25613461-2e7d-4d8e-b0ca-9a4470442e5e" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.DependencyInjection.DependencyInjection</name>
+      <display>Intent.Application.DependencyInjection.DependencyInjection</display>
+      <externalReference>Intent.Application.DependencyInjection</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+      <packageName>eShopOnDapr.Basket</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="e56c36be-c936-4107-8f52-ed80b16e1c4a" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.Dtos.AutoMapper.MappingExtensions</name>
+      <display>Intent.Application.Dtos.AutoMapper.MappingExtensions</display>
+      <externalReference>Intent.Application.Dtos.AutoMapper</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+      <packageName>eShopOnDapr.Basket</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="370df0e3-c9d8-42f6-bb85-0e5e7cb68d89" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.Dtos.DtoModel</name>
+      <display>Intent.Application.Dtos.DtoModel</display>
+      <externalReference>Intent.Application.Dtos</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+      <packageName>eShopOnDapr.Basket</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="3bdbbde7-cafb-4112-a170-56c7ae691550" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.MediatR.CommandHandler</name>
+      <display>Intent.Application.MediatR.CommandHandler</display>
+      <externalReference>Intent.Application.MediatR</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+      <packageName>eShopOnDapr.Basket</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="a7357aec-dd63-4cd2-83f5-e9a12801fac7" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.MediatR.CommandModels</name>
+      <display>Intent.Application.MediatR.CommandModels</display>
+      <externalReference>Intent.Application.MediatR</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+      <packageName>eShopOnDapr.Basket</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="c4a2aa8d-273c-4ee3-bae5-62ef24815412" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.MediatR.FluentValidation.CommandValidator</name>
+      <display>Intent.Application.MediatR.FluentValidation.CommandValidator</display>
+      <externalReference>Intent.Application.MediatR.FluentValidation</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+      <packageName>eShopOnDapr.Basket</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="fd55d654-848c-417c-b8d2-e0247f148985" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.MediatR.FluentValidation.QueryValidator</name>
+      <display>Intent.Application.MediatR.FluentValidation.QueryValidator</display>
+      <externalReference>Intent.Application.MediatR.FluentValidation</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+      <packageName>eShopOnDapr.Basket</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="954055c9-616e-4b20-a1f9-1d0c6aadd519" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.MediatR.QueryHandler</name>
+      <display>Intent.Application.MediatR.QueryHandler</display>
+      <externalReference>Intent.Application.MediatR</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+      <packageName>eShopOnDapr.Basket</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="a79670a3-af88-4586-ae30-47013a0b916f" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.MediatR.QueryModels</name>
+      <display>Intent.Application.MediatR.QueryModels</display>
+      <externalReference>Intent.Application.MediatR</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+      <packageName>eShopOnDapr.Basket</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="bd54b4b1-c24a-4d88-8f04-4b9830d7ead1" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>Application</name>
+      <display>Application</display>
+      <externalReference>1be18753-0bf3-4e0b-b5d7-800fc5b49272</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+      <packageName>eShopOnDapr.Basket</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="635972cb-9fc2-42b9-a0e9-54028433351c" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Dapr.AspNetCore.PubSub.Event</name>
+      <display>Intent.Dapr.AspNetCore.PubSub.Event</display>
+      <externalReference>Intent.Dapr.AspNetCore.PubSub</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="715a84ce-ef3a-496c-8021-217e101f5dd5" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Dapr.AspNetCore.PubSub.EventHandler</name>
+      <display>Intent.Dapr.AspNetCore.PubSub.EventHandler</display>
+      <externalReference>Intent.Dapr.AspNetCore.PubSub</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="791c0e06-9a63-4e1a-885d-cf212eaa0618" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Dapr.AspNetCore.Pubsub.Event</name>
+      <display>Intent.Dapr.AspNetCore.Pubsub.Event</display>
+      <externalReference>Intent.Dapr.AspNetCore.Pubsub</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="56617538-6fdd-4a1e-84c3-c201244dd9ab" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Dapr.AspNetCore.Pubsub.EventHandler</name>
+      <display>Intent.Dapr.AspNetCore.Pubsub.EventHandler</display>
+      <externalReference>Intent.Dapr.AspNetCore.Pubsub</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>fc87378e-5749-4e65-8509-78168dfa76b7</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

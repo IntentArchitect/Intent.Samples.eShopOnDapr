@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="1b2a6e57-9a8d-4174-88c6-dfa93fb33571" type="Command" typeId="ccf14eb6-3a55-4d81-b5b9-d27311c70cb9">
+  <name>DoPub</name>
+  <display>DoPub: void</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <typeReference id="0923e86e-a48e-4df3-9473-2cf54efee950">
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>false</isCollection>
+    <isRequired>true</isRequired>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
+  <isMapped>false</isMapped>
+  <parentFolderId>0b7faf22-5965-4c32-baa2-3b5a7b94abb3</parentFolderId>
+  <packageId>0b7faf22-5965-4c32-baa2-3b5a7b94abb3</packageId>
+  <packageName>eShopOnDapr.Ordering.Services</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

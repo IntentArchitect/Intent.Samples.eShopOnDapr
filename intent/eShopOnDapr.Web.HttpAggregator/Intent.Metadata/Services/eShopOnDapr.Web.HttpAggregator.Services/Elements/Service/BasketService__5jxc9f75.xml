@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="04a13d50-f922-4bf0-9eb3-76b969380358" type="Service" typeId="b16578a5-27b1-4047-a8df-f0b783d706bd">
+  <name>BasketService</name>
+  <display>BasketService</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>61d12bd3-e53b-4675-aa20-2bf86da1e211</parentFolderId>
+  <packageId>61d12bd3-e53b-4675-aa20-2bf86da1e211</packageId>
+  <packageName>eShopOnDapr.Web.HttpAggregator.Services</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="c29224ec-d473-4b95-ad4a-ec55c676c4fd" name="Http Service Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+      <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+      <properties>
+        <property name="1e223bd0-7a72-435a-8741-a612d88e4a12" display="Route" value="api/v1/[controller]" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="1e6c65c6-cb84-4ad9-8f24-9aa963cc381b" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>UpdateAll</name>
+      <display>UpdateAll(data: UpdateBasketRequest, authorization: string): BasketData</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="fa1087b0-c363-44f6-a9aa-505d296be2b9">
+        <typeId>0abeb242-e83e-4e89-9c39-2b29a5c2067b</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>eShopOnDapr.Web.HttpAggregator.Services</typePackageName>
+        <typePackageId>61d12bd3-e53b-4675-aa20-2bf86da1e211</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <applicationId>f6de452a-3d4e-4097-b179-d1dbbab64a6e</applicationId>
+        <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+        <mappingSettingsId>e4e36072-a2ce-42d3-93c5-0b496d79ef43</mappingSettingsId>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
+        <mappedPath>
+          <target id="faa85e99-cc9c-40b6-a76e-d38c47d254b1" name="UpdateAllCommand" type="element" specialization="Command" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>04a13d50-f922-4bf0-9eb3-76b969380358</parentFolderId>
+      <packageId>61d12bd3-e53b-4675-aa20-2bf86da1e211</packageId>
+      <packageName>eShopOnDapr.Web.HttpAggregator.Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+          <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+          <properties>
+            <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="POST" isActive="true" />
+            <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="" isActive="true" />
+            <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements>
+        <childElement id="c84f8803-987a-48a6-87b9-98aa603d728e" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>data</name>
+          <display>in : data: UpdateBasketRequest</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="e0aa5e66-de8c-4ae1-89ca-f77719b9f77b">
+            <typeId>fb29fdf7-27ed-498d-99e8-ab2b54fc79dc</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>eShopOnDapr.Web.HttpAggregator.Services</typePackageName>
+            <typePackageId>61d12bd3-e53b-4675-aa20-2bf86da1e211</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappingSettingsId>e4e36072-a2ce-42d3-93c5-0b496d79ef43</mappingSettingsId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
+            <mappedPath>
+              <target id="18ead85d-6284-4e63-8b1d-df898c8056e1" name="data" type="element" specialization="DTO-Field" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>1e6c65c6-cb84-4ad9-8f24-9aa963cc381b</parentFolderId>
+          <packageId>61d12bd3-e53b-4675-aa20-2bf86da1e211</packageId>
+          <packageName>eShopOnDapr.Web.HttpAggregator.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="75ab6a2c-517b-4957-92af-61a9088f8fbf" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>authorization</name>
+          <display>in : authorization: string</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="0b7b4d2f-47c9-41fd-b611-06ac03b663c8">
+            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappingSettingsId>e4e36072-a2ce-42d3-93c5-0b496d79ef43</mappingSettingsId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
+            <mappedPath>
+              <target id="7bc76e0c-c4d7-4145-ad82-133ade87a791" name="authorization" type="element" specialization="DTO-Field" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>1e6c65c6-cb84-4ad9-8f24-9aa963cc381b</parentFolderId>
+          <packageId>61d12bd3-e53b-4675-aa20-2bf86da1e211</packageId>
+          <packageName>eShopOnDapr.Web.HttpAggregator.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="From Header" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" value="auth" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

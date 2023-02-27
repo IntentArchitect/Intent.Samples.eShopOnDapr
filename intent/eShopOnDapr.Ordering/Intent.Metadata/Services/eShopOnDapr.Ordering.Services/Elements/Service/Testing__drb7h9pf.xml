@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="a9e484b8-2d78-4a28-a03c-fb463b35a91c" type="Service" typeId="b16578a5-27b1-4047-a8df-f0b783d706bd">
+  <name>Testing</name>
+  <display>Testing</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>0b7faf22-5965-4c32-baa2-3b5a7b94abb3</parentFolderId>
+  <packageId>0b7faf22-5965-4c32-baa2-3b5a7b94abb3</packageId>
+  <packageName>eShopOnDapr.Ordering.Services</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="c29224ec-d473-4b95-ad4a-ec55c676c4fd" name="Http Service Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+      <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+      <properties>
+        <property name="1e223bd0-7a72-435a-8741-a612d88e4a12" display="Route" value="" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="db13b64b-37b6-4c97-a786-f81fcd65a1ab" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>DoPub</name>
+      <display>DoPub(): void</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="0a3c4507-8658-407f-9b5d-b3a670560fe0">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <applicationId>4c8c9ea9-82b1-49b8-8f87-bce16b753faa</applicationId>
+        <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+        <mappingSettingsId>e4e36072-a2ce-42d3-93c5-0b496d79ef43</mappingSettingsId>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
+        <mappedPath>
+          <target id="1b2a6e57-9a8d-4174-88c6-dfa93fb33571" name="DoPub" type="element" specialization="Command" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>a9e484b8-2d78-4a28-a03c-fb463b35a91c</parentFolderId>
+      <packageId>0b7faf22-5965-4c32-baa2-3b5a7b94abb3</packageId>
+      <packageName>eShopOnDapr.Ordering.Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+          <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+          <properties>
+            <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="POST" isActive="true" />
+            <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="[action]" isActive="true" />
+            <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="e56feb8d-e8d5-4ccc-ae0d-1bf91fcf6b77" type="Application" typeId="f40a4942-5d2d-4174-8ec1-af66cbd464db">
+  <name>eShopOnDapr.Basket</name>
+  <display>eShopOnDapr.Basket</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>cadd1e5b-883d-4c46-b7f9-3f518f2bfb68</parentFolderId>
+  <packageId>cadd1e5b-883d-4c46-b7f9-3f518f2bfb68</packageId>
+  <packageName>Eventing.Basket</packageName>
+  <diagram>
+    <targetPackageId>cadd1e5b-883d-4c46-b7f9-3f518f2bfb68</targetPackageId>
+  </diagram>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

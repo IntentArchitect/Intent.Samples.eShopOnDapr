@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="d9337f10-3ada-45aa-a202-aa2f9558e52d" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+  <name>Repositories</name>
+  <display>Repositories</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>bbfe42f1-d62e-4aa5-bb3f-8ec55aeec8fd</parentFolderId>
+  <packageId>150ba8d0-75b3-4a83-945b-7e7d95a3ca2a</packageId>
+  <packageName>eShopOnDapr.Web.HttpAggregator</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+      <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+      <properties>
+        <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="030aab32-a5c4-4ba9-ac16-8b9b00136d5f" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.EntityFrameworkCore.Repositories.PagedList</name>
+      <display>Intent.EntityFrameworkCore.Repositories.PagedList</display>
+      <externalReference>Intent.EntityFrameworkCore.Repositories</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>d9337f10-3ada-45aa-a202-aa2f9558e52d</parentFolderId>
+      <packageId>150ba8d0-75b3-4a83-945b-7e7d95a3ca2a</packageId>
+      <packageName>eShopOnDapr.Web.HttpAggregator</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="63709eff-c8dd-439f-83f9-13494ae2ea1e" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.EntityFrameworkCore.Repositories.Repository</name>
+      <display>Intent.EntityFrameworkCore.Repositories.Repository</display>
+      <externalReference>Intent.EntityFrameworkCore.Repositories</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>d9337f10-3ada-45aa-a202-aa2f9558e52d</parentFolderId>
+      <packageId>150ba8d0-75b3-4a83-945b-7e7d95a3ca2a</packageId>
+      <packageName>eShopOnDapr.Web.HttpAggregator</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="0ecec3ec-7da8-460b-b307-af5c64db9669" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.EntityFrameworkCore.Repositories.RepositoryBase</name>
+      <display>Intent.EntityFrameworkCore.Repositories.RepositoryBase</display>
+      <externalReference>Intent.EntityFrameworkCore.Repositories</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>d9337f10-3ada-45aa-a202-aa2f9558e52d</parentFolderId>
+      <packageId>150ba8d0-75b3-4a83-945b-7e7d95a3ca2a</packageId>
+      <packageName>eShopOnDapr.Web.HttpAggregator</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

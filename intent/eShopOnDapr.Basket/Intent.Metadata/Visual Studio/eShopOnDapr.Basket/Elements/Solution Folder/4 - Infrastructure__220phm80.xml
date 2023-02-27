@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="a5d9e11d-8b00-4089-b377-778f12071b3c" type="Solution Folder" typeId="0dc2b846-c968-49eb-99b7-8776919313a8">
+  <name>4 - Infrastructure</name>
+  <display>4 - Infrastructure</display>
+  <externalReference>03755119-cb3c-4cca-a0d0-532c2b817667</externalReference>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>4f173b98-c44d-4465-a340-7b78e2e3e779</parentFolderId>
+  <packageId>4f173b98-c44d-4465-a340-7b78e2e3e779</packageId>
+  <packageName>eShopOnDapr.Basket</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

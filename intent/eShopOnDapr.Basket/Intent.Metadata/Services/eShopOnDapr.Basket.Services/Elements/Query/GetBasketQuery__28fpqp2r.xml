@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="a6e8e020-e03e-4cc1-8bdf-66bd16176ed3" type="Query" typeId="e71b0662-e29d-4db2-868b-8a12464b25d0">
+  <name>GetBasketQuery</name>
+  <display>GetBasketQuery: CustomerBasket</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <typeReference id="8ab87c56-f2a5-44d3-abec-232e3e67c38a">
+    <typeId>634dd4c8-e3c6-44e4-9a44-ff1bc858d649</typeId>
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>false</isCollection>
+    <isRequired>true</isRequired>
+    <typePackageName>eShopOnDapr.Basket.Services</typePackageName>
+    <typePackageId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</typePackageId>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
+  <isMapped>false</isMapped>
+  <parentFolderId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</parentFolderId>
+  <packageId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</packageId>
+  <packageName>eShopOnDapr.Basket.Services</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

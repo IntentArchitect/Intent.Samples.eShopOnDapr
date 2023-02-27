@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="54bbc348-8ec1-4e74-ba26-ca500583ee47" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+  <name>Common</name>
+  <display>Common</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>adbccd68-57b6-432c-8216-a02d4f0f99bf</parentFolderId>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

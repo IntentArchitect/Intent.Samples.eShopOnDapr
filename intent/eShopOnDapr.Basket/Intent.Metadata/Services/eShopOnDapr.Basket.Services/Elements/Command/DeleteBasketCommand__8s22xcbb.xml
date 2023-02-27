@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="3c92fc7e-a9a9-456d-99b0-099633de3a75" type="Command" typeId="ccf14eb6-3a55-4d81-b5b9-d27311c70cb9">
+  <name>DeleteBasketCommand</name>
+  <display>DeleteBasketCommand: void</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <typeReference id="3dbdce68-8179-4347-bd93-776807c1ff18">
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>false</isCollection>
+    <isRequired>true</isRequired>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
+  <isMapped>false</isMapped>
+  <parentFolderId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</parentFolderId>
+  <packageId>eddd08f3-a9d5-4f09-86ba-0b48c8699dc3</packageId>
+  <packageName>eShopOnDapr.Basket.Services</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

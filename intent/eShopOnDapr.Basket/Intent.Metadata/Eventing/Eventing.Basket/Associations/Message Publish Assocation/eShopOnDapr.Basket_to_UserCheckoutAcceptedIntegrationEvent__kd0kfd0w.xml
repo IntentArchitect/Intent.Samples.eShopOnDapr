@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="4dbb95fb-485e-4826-8fa2-a87516c69aab">
+  <sourceEnd id="57666aa9-b545-4688-8ad9-506afc541cb0" type="Message Publish Assocation Source End" typeId="282eea12-2b98-4f0f-a28c-50c05b953c8e">
+    <name>eShopOnDapr.Basket</name>
+    <display>publisher: eShopOnDapr.Basket</display>
+    <order>0</order>
+    <typeReference id="84715b39-4c9b-4ec8-8e3e-50fb4c73ad7f">
+      <typeId>e56feb8d-e8d5-4ccc-ae0d-1bf91fcf6b77</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Eventing.Basket</typePackageName>
+      <typePackageId>cadd1e5b-883d-4c46-b7f9-3f518f2bfb68</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="4dbb95fb-485e-4826-8fa2-a87516c69aab" type="Message Publish Assocation Target End" typeId="6be8d569-70b9-4451-bd1b-7b654499503e">
+    <name>UserCheckoutAcceptedIntegrationEvent</name>
+    <display>publish: UserCheckoutAcceptedIntegrationEvent</display>
+    <order>0</order>
+    <typeReference id="4c0799ea-6edd-4d30-aa98-7e5017dcbb6a">
+      <typeId>e10e4119-6730-45ba-bedb-bc03f58e6754</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Eventing.Messages</typePackageName>
+      <typePackageId>d57888af-35b9-4ecb-9e93-f0240458fd42</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Message Publish Assocation</associationType>
+  <associationTypeId>022d4c90-e1b6-4747-a15f-640c19503a8f</associationTypeId>
+  <stereotypes />
+</association>
